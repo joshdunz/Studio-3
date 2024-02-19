@@ -1,6 +1,8 @@
 #logoBar{
-  width: 100vw;
-  height: 60vh;
+  width: 50vw;
+  height: 50vh;
+  text-align: center ;
+
 }
 #siteLogo{
   width: 100%;
@@ -9,6 +11,7 @@
 body {
   background-color: bisque;
   display: flex;
+  /* align-items: center; */
 }
 h1 {
   color: brown;
@@ -22,39 +25,39 @@ h3 {
 
 
 .card {
-  height: 5rem;
-  width: 5rem;
+  height: 10rem;
+  width: 10rem;
   background-color: yellowgreen;
-  /* margin-left:3px;
-  margin-right: 3px; */
-  margin-left:1px;
-  margin-right:1px;
+  margin-left:10px;
+  margin-right:10px;
   border-radius: 20px;
-  padding: 70px;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin: 10px;
-  /* Add shadows to create the "card" effect
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
-  /* transition: 0.3s; */
+  text-align: center ;
 }
-/* .card-image {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-} */
 
-/* .flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-} */
+
 #staffGallery{
+  margin-top: 10px;
   width: 70vw;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   body{
     flex-direction: column;
     align-items: center;
   }
-  }
+}
+
+  
+.galleryImage{
+  width: 100%;
+  height: auto;
+}
